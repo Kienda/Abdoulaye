@@ -28,14 +28,16 @@ nav ul li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px;
+  padding: 0 10% 0 10%;
   background-color: white;
+
 }
 .hero-text {
-  max-width: 50%;
+  max-width: 80%;
+  font-size: 2rem;
 }
 .hero-image img {
-  width: 200px;
+  width: 400px;
   border-radius: 10px;
 }
 .achievements {
@@ -46,7 +48,7 @@ nav ul li a {
 .cards {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  
 }
 .card {
   background: blue;
@@ -66,4 +68,5 @@ footer {
 footer a {
   color: white;
   text-decoration: none;
+
 }
