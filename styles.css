@@ -12,7 +12,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #0000FF;
-  padding: 10px 20px;
+  padding: 10px 10px;
   color: white;
 }
 .logo img{
@@ -23,6 +23,7 @@ header {
   font-size: 1.5rem;
   display: flex;
   align-items: center;
+  padding: 0 10px;
 }
 @media (max-width: 500px) {
   .logo {
@@ -36,7 +37,7 @@ header {
 nav ul {
   list-style: none;
   display: flex;
-  gap: 15px;
+  gap: 5px;
 }
 nav ul li a {
   color: white;
@@ -62,6 +63,15 @@ hero-text p {
 .hero-image img {
   width: 400px;
   border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero-image img {
+    width: 300px;
+  }
 }
 .achievements {
   min-height: 50vh;
